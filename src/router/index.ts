@@ -23,22 +23,8 @@ const router = createRouter({
     },
     {
       path: '/',
-      component: () => import('../views/LoggedInView.vue'),
-      meta: {
-        public: false,
-      },
-      children: [
-        {
-          name: 'dashboard',
-          path: '/',
-          component: () => import('../views/DashboardView.vue'),
-        },
-        {
-          name: 'list',
-          path: '/list/:id',
-          component: () => import('../views/TodoListDetailView.vue'),
-        },
-      ],
+      name: 'dashboard',
+      component: () => import('../views/DashboardView.vue'),
     },
   ],
 });

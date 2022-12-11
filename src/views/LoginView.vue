@@ -4,16 +4,16 @@
       <form @submit.prevent="submit">
         <div v-if="error">{{ error }}</div>
 
-        <div>
+        <div class="form-group">
           <label>Username</label>
           <input class="border" v-model="formState.username" />
         </div>
-        <div>
+        <div class="form-group">
           <label>Password</label>
           <input class="border" type="password" v-model="formState.password" />
         </div>
 
-        <button>Submit</button>
+        <button class="primary">Submit</button>
       </form>
     </div>
   </main>

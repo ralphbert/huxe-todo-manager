@@ -1,6 +1,8 @@
 <template>
   <div>
     <h1>Dashboard</h1>
+
+    <RouterLink to="/logout">Logout</RouterLink>
   </div>
 </template>
 
