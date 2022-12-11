@@ -1,0 +1,53 @@
+{
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "logout": {
+    "title": "Bye bye"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "loadingIndicator": "Loading...",
+  "todoList": {
+    "delete": "Delete list",
+    "errors": {
+      "loadingList": "Sorry! Something went wrong.",
+      "emptyList": "No todos created yet"
+    },
+    "createForm": {
+      "title": {
+        "label": "Title"
+      },
+      "create": {
+        "label": "Add"
+      }
+    }
+  },
+  "todos": {
+    "status": {
+      "all": "All",
+      "done": "Done",
+      "not-done": "To do"
+    },
+    "createForm": {
+      "title": {
+        "label": "Title"
+      },
+      "xp": {
+        "label": "XP"
+      },
+      "due": {
+        "label": "Due"
+      },
+      "create": {
+        "label": "Add"
+      }
+    }
+  },
+  "pagination": {
+    "next": "Next",
+    "back": "Back"
+  }
+}

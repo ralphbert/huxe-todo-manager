@@ -1,0 +1,39 @@
+button.icon {
+    @apply border-none bg-transparent enabled:hover:scale-105 transition-transform;
+}
+
+button.primary {
+    @apply rounded border px-2 py-1 enabled:hover:bg-blue-700 bg-blue-500 text-white enabled:active:bg-blue-600 whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+button.primary.active {
+    @apply ring-2 ring-blue-300;
+}
+
+button.secondary {
+    @apply rounded-full border border-gray-400 px-4 py-0.5 enabled:hover:bg-gray-400 bg-gray-200 text-black enabled:active:bg-gray-300 whitespace-nowrap transition-all;
+}
+
+button.secondary.active {
+    @apply ring-2 ring-current bg-transparent text-blue-500 enabled:hover:bg-blue-100 border-transparent;
+}
+
+button.danger {
+    @apply rounded border px-2 py-1 enabled:hover:bg-red-700 bg-red-500 text-white enabled:active:bg-red-600;
+}
+
+.form-group {
+    @apply mb-4;
+}
+
+.form-group label {
+    @apply block text-sm text-gray-600;
+}
+
+input, select {
+    @apply border px-2 py-1 rounded disabled:cursor-not-allowed w-full;
+}
+
+.form {
+    @apply shadow px-4 py-3 rounded;
+}

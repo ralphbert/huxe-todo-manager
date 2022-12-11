@@ -1,0 +1,53 @@
+{
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "logout": {
+    "title": "Baba"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "loadingIndicator": "Lade Daten...",
+  "todoList": {
+    "delete": "Liste löschen",
+    "errors": {
+      "loadingList": "Etwas ist schief gelaufen. Es tut uns leid.",
+      "emptyList": "Noch keine Todos vorhanden"
+    },
+    "createForm": {
+      "title": {
+        "label": "Title"
+      },
+      "create": {
+        "label": "Fertig"
+      }
+    }
+  },
+  "todos": {
+    "status": {
+      "all": "Alle",
+      "done": "erledigt",
+      "not-done": "zu erledigen"
+    },
+    "createForm": {
+      "title": {
+        "label": "Title"
+      },
+      "xp": {
+        "label": "XP"
+      },
+      "due": {
+        "label": "Zu erledigen bis"
+      },
+      "create": {
+        "label": "Erstellen"
+      }
+    }
+  },
+  "pagination": {
+    "next": "Vorwärts",
+    "back": "Zurück"
+  }
+}
